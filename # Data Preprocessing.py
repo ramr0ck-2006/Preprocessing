@@ -15,6 +15,7 @@ print("REGULAR EXP2 = ", lowercase_re)
 lowercase_re = re.sub('\d', '-', lowercase)
 print("REGULAR EXP3 = ", lowercase_re)
 #(2)Tokenization
+#initialization
 import nltk
 from nltk import word_tokenize, sent_tokenize
 
